@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/Imagenes/icon.jpg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/styles_pago.css">
+    <title>Formulario de Pago</title>
+</head>
+<body>
+    <section class="payment-form">
+        <h1>Detalles de Pago</h1>
+        
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="card-number">Número de Tarjeta</label>
+                <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9876 5432" required>
+            </div>
+
+            <div class="form-group">
+                <label for="expiration">Fecha de Expiración</label>
+                <input type="month" id="expiration" name="expiration" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cvv">Código de Seguridad (CVV)</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Dirección de Facturación</label>
+                <input type="text" id="address" name="address" placeholder="Tu dirección de facturación" required>
+            </div>
+
+            <div class="form-group">
+                <label for="payment-method">Método de Pago</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="credit">Tarjeta de Crédito</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank">Transferencia Bancaria</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Realizar Pago</button>
+        </form>
+    </section>
+</body>
+</html>
