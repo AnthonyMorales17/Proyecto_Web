@@ -3,40 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" href="/Imagenes/icon.jpg">
-
+    <link rel="icon" type="image/jpg" href="../Imagenes/icon.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/CSS/styles.registro.css">
+    <link rel="stylesheet" href="../CSS/styles.registro.css">
     <title>Registro | RetroStoreEC</title>
 </head>
 <body>
     <div id="contenedor">
         <div id="central">
             <div id="registro">
-                <div class="titulo">Crea tu Cuenta</div>
+                <div class="titulo">Iniciar sesion</div>
                 <form id="registroform" action="login.html" method="post">
-                    <div class="input-group">
-                        <i class="fas fa-user"></i>
-                        <input type="text" name="nombre" placeholder="Nombre Completo" required>
-                    </div>
+                    
                     <div class="input-group">
                         <i class="fas fa-envelope"></i>
                         <input type="email" name="email" placeholder="Correo Electrónico" required>
                     </div>
                     <div class="input-group">
                         <i class="fas fa-lock"></i>
-                        <input type="password" name="password" placeholder="Contraseña" required>
+                        <input type="password" name="contraseña" placeholder="Contraseña" required>
                     </div>
-                    <div class="input-group">
-                        <i class="fas fa-lock"></i>
-                        <input type="password" name="confirmar_password" placeholder="Confirmar Contraseña" required>
-                    </div>
-                    <input type="submit" value="Registrar Cuenta">
+                    
+                    <input type="submit" value="Inicia sesión">
                 </form>
                 <div class="pie-form">
-                    <a href="login.html">¿Ya tienes una cuenta? Inicia sesión</a>
+                    <a href="registro.html">¿No tienes una cuenta? Registrate aquí</a>
+                    <br>
+                    <br>
+                    <a href="form_recuperar_contrasena.html">¿Olvidaste tu contraseña? Te ayudamos</a>
                 </div>
+            </div>
+            <div class="inferior">
+                <a href="index.html">Volver</a>
             </div>
         </div>
     </div>
