@@ -48,17 +48,17 @@ input[type="email"] {
     background-color: transparent;
 }
 
-.btn-recuperar {
+input[type="submit"] {
+    display: block;
     width: 100%;
-    padding: 12px;
-    font-size: 1.2rem;
+    padding: 10px;
+    font-size: 1rem;
     background-color: #007BFF;
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
 }
 
 .btn-recuperar:hover {

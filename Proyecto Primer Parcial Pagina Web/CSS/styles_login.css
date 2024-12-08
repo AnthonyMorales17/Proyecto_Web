@@ -7,78 +7,102 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 #contenedor {
     width: 100%;
     max-width: 400px;
     padding: 20px;
     background: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
+
+#central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .titulo {
     font-size: 2rem;
+    font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
     color: #333;
 }
+
 .input-group {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 5px 10px;
-    background-color: #fafafa;
 }
+
 .input-group i {
-    color: #007BFF;
-    margin-right: 10px;
+    padding: 0 10px;
+    color: #333;
 }
-input[type="text"],
-input[type="password"] {
+
+.input-group input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    color: #333;
+}
+
+.input-group input:focus {
+    border: 1px solid #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+input[type="submit"] {
+    display: block;
     width: 100%;
     padding: 10px;
     font-size: 1rem;
-    border: none;
-    background-color: transparent;
-}
-input[type="submit"] {
-    width: 100%;
-    padding: 12px;
-    font-size: 1.2rem;
     background-color: #007BFF;
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
+
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
 .pie-form {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
 }
+
 .pie-form a {
     color: #007BFF;
     text-decoration: none;
-    font-size: 0.9rem;
-    margin: 0 5px;
+    font-size: 1rem;
 }
+
 .pie-form a:hover {
     text-decoration: underline;
 }
+
+
 .inferior {
     text-align: center;
     margin-top: 20px;
 }
+
 .inferior a {
-    color: #007BFF;
+    color: #333;
     text-decoration: none;
-    font-size: 1rem;
 }
+
 .inferior a:hover {
     text-decoration: underline;
 }
