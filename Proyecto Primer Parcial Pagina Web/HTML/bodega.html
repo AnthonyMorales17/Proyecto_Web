@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" href="../Imagenes/icon.jpg">
-
+    <link rel="icon" type="image/jpg" href="/Imagenes/icon.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/styles_bodega.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/styles_bodega.css">
     <title>Bodega | RetroStoreEC</title>
 </head>
 <body>
     <h1>Bodega</h1>
-    <div class="container">       
+    <div class="container">
         <aside>
             <h2>Acciones</h2>
-            <button>Agregar Producto</button>
-            <button>Eliminar Producto</button>
-            <button>Editar Producto</button>
-            <button>Ocultar Producto</button>
+            <button><i class="fa-solid fa-cart-plus"></i> Agregar Producto</button>
+            <button><i class="fa-solid fa-pen-to-square"></i> Editar Producto</button>
+            <button><i class="fa-solid fa-eye-slash"></i> Ocultar Producto</button>
+            <button class="delete"><i class="fa-solid fa-trash-can"></i> Eliminar Producto</button>
         </aside>
 
+        <!-- Contenido -->
         <div class="content">
             <h2>Productos en Bodega</h2>
             <table>
@@ -33,13 +34,13 @@
                     <td>The King of Fighters '94</td>
                     <td>Juego</td>
                     <td>$30.00</td>
-                    <td>50 unidades</td>
+                    <td>30 unidades</td>
                 </tr>
                 <tr>
                     <td>The King of Fighters '98</td>
                     <td>Juego</td>
                     <td>$35.00</td>
-                    <td>45 unidades</td>
+                    <td>15 unidades</td>
                 </tr>
                 <tr>
                     <td>Consola Retro</td>
@@ -54,104 +55,97 @@
                     <td>100 unidades</td>
                 </tr>
                 <tr>
-                    <td>Super Mario Bros</td>
+                    <td>The King of Fighters 2002</td>
                     <td>Juego</td>
-                    <td>$25.00</td>
-                    <td>60 unidades</td>
-                </tr>
-                <tr>
-                    <td>Street Fighter II</td>
-                    <td>Juego</td>
-                    <td>$28.00</td>
-                    <td>35 unidades</td>
-                </tr>
-                <tr>
-                    <td>Sonic the Hedgehog</td>
-                    <td>Juego</td>
-                    <td>$22.00</td>
-                    <td>80 unidades</td>
-                </tr>
-                <tr>
-                    <td>Donkey Kong Country</td>
-                    <td>Juego</td>
-                    <td>$30.00</td>
-                    <td>50 unidades</td>
-                </tr>
-                <tr>
-                    <td>Game Boy Color</td>
-                    <td>Consola</td>
-                    <td>$120.00</td>
-                    <td>15 unidades</td>
-                </tr>
-                <tr>
-                    <td>Power Glove</td>
-                    <td>Accesorio</td>
-                    <td>$100.00</td>
-                    <td>10 unidades</td>
-                </tr>
-                <tr>
-                    <td>Cartucho Tetris</td>
-                    <td>Juego</td>
-                    <td>$20.00</td>
-                    <td>90 unidades</td>
-                </tr>
-                <tr>
-                    <td>Pac-Man</td>
-                    <td>Juego</td>
-                    <td>$18.00</td>
-                    <td>70 unidades</td>
-                </tr>
-                <tr>
-                    <td>Resident Evil</td>
-                    <td>Juego</td>
-                    <td>$40.00</td>
+                    <td>$</td>
                     <td>25 unidades</td>
                 </tr>
                 <tr>
-                    <td>Legend of Zelda</td>
+                    <td>Super Mario Bros Wonder</td>
                     <td>Juego</td>
-                    <td>$50.00</td>
-                    <td>30 unidades</td>
+                    <td>$24.00</td>
+                    <td>10 unidades</td>
                 </tr>
                 <tr>
-                    <td>Joystick Clásico</td>
-                    <td>Accesorio</td>
-                    <td>$25.00</td>
-                    <td>200 unidades</td>
-                </tr>
-                <tr>
-                    <td>Castlevania</td>
+                    <td>Super Smash Bros Ultimate</td>
                     <td>Juego</td>
-                    <td>$35.00</td>
-                    <td>40 unidades</td>
-                </tr>
-                <tr>
-                    <td>Metal Slug</td>
-                    <td>Juego</td>
-                    <td>$32.00</td>
-                    <td>50 unidades</td>
-                </tr>
-                <tr>
-                    <td>Nintendo 64</td>
-                    <td>Consola</td>
-                    <td>$200.00</td>
+                    <td>$20.00</td>
                     <td>12 unidades</td>
                 </tr>
                 <tr>
-                    <td>Virtual Boy</td>
-                    <td>Consola</td>
-                    <td>$300.00</td>
-                    <td>5 unidades</td>
+                    <td>Mario Strikers Battle League</td>
+                    <td>Juego</td>
+                    <td>$25.00</td>
+                    <td>6 unidades</td>
                 </tr>
                 <tr>
-                    <td>Adaptador de TV</td>
-                    <td>Accesorio</td>
-                    <td>$15.00</td>
-                    <td>150 unidades</td>
+                    <td>Super Mario Bros Wonder</td>
+                    <td>Juego</td>
+                    <td>$24.00</td>
+                    <td>4 unidades</td>
+                </tr>
+                <tr>
+                    <td>Super Smash Bros Ultimate</td>
+                    <td>Juego</td>
+                    <td>$20.00</td>
+                    <td>23 unidades</td>
+                </tr>
+                <tr>
+                    <td>Sonic X Shadow Generations</td>
+                    <td>Juego</td>
+                    <td>$32.00</td>
+                    <td>3 unidades</td>
+                </tr>
+                <tr>
+                    <td>Sonic Frontiers</td>
+                    <td>Juego</td>
+                    <td>$24.00</td>
+                    <td>7 unidades</td>
+                </tr>
+                <tr>
+                    <td>Sonic Superstars</td>
+                    <td>Juego</td>
+                    <td>$17.00</td>
+                    <td>10 unidades</td>
+                </tr>
+                <tr>
+                    <td>Sonic Origins</td>
+                    <td>Juego</td>
+                    <td>$19.00</td>
+                    <td>19 unidades</td>
+                </tr>
+                <tr>
+                    <td>Team Sonic Racing</td>
+                    <td>Juego</td>
+                    <td>$17.00</td>
+                    <td>9 unidades</td>
+                </tr>
+                <tr>
+                    <td>Sonic Colors: Ultimate</td>
+                    <td>Juego</td>
+                    <td>$21.00</td>
+                    <td>30 unidades</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Juego</td>
+                    <td>$</td>
+                    <td>4 unidades</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Juego</td>
+                    <td>$</td>
+                    <td>15 unidades</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Juego</td>
+                    <td>$</td>
+                    <td>13 unidades</td>
                 </tr>
             </table>
-
-            <a href="tienda.html" class="btn-primary">Ver Tienda</a>
+            <a href="tienda.html" class="btn-primary"><i class="fa-solid fa-store"></i> Ver Tienda</a>
         </div>
     </div>
 </body>
