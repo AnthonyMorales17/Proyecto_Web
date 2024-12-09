@@ -24,23 +24,24 @@
         <option value="Empleado">Seguridad</option>
     </select>
 
-    <form class="form-container">
+    <form class="form-container" action="index.html" method="get">
 
         <div class="form-section">
             <h3>Informacion Personal</h3>
 
-            <div class="form-group">
-                <label>Nombre: </label>
-                <input type="text" id="txtNombre" placeholder="Ingresa tus nombres completos" maxlength="20">
+            <aside class="form-group">
+                <label> Nombre: </label>
+                <input type="text" id="txtNombre" placeholder="Ingresa tus nombres completos" maxlength="20" required>
                 <br>
-            </div>
+            </aside>
     
-            <div class="form-group">
+            <aside class="form-group">
                 <label>Apellidos: </label>
-                <input type="text" id="txtApellido" placeholder="Ingresa tus apellidos completos" maxlength="20">
+                <input type="text" id="txtApellido" placeholder="Ingresa tus apellidos completos" maxlength="20" required>
                 <br>
-            </div>
-            <div class="form-group">
+            </aside>
+
+            <aside class="form-group">
                 <label>Identificacion: </label>
                 <select id="categorias">
                     <option value="" disabled selected>Seleccione el Documento de Identidad</option>
@@ -48,27 +49,27 @@
                     <option value="pasaporte">Pasaporte</option>
                 </select>
                 <br>
-            </div>
+            </aside>
 
-            <div class="form-group">
+            <aside class="form-group">
                 <label>Numeracion del Documento: </label>
-                <input type="text" id="txtApellido" placeholder="INGRESE 10 DIGITOS" maxlength="10">
+                <input type="number" id="txtApellido" placeholder="INGRESE 10 DIGITOS" maxlength="10" required>
                 <br>
-            </div>
+            </aside>
 
-            <div class="form-group">
+            <aside class="form-group">
                 <label>Fecha de Nacimiento: </label>
-                <input type="date" id="txtApellido">
+                <input type="date" id="txtApellido" required>
                 <br>
-            </div>
+            </aside>
 
-            <div class="form-group">
+            <aside class="form-group">
                 <label>Correo Electronico: </label>
-                <input type="email" id="txtApellido" placeholder="INGRESE SU CORREO" maxlength="10">
+                <input type="email" id="txtApellido" placeholder="INGRESE SU CORREO" maxlength="10" required>
                 <br>
-            </div>
+            </aside>
 
-            <div class="form-group">
+            <aside class="form-group">
                 <label>Provincia: </label>
                 <select id="categorias">
                     <option value="" disabled selected>Seleccione</option>
@@ -77,9 +78,9 @@
                     <option value="Santo Domingo">Santo Domingo</option>
                 </select>
                 <br>
-            </div>
+            </aside>
 
-            <div class="form-group">
+            <aside class="form-group">
                 <label>Canton: </label>
                 <select id="categorias">
                     <option value="" disabled selected>Seleccione</option>
@@ -90,9 +91,9 @@
                     <option value="Canton">Guayaquil</option>
                 </select>
                 <br>
-            </div>
+            </aside>
 
-            <div class="form-group">
+            <aside class="form-group">
                 <label>Nivel de Estudios: </label>
                 <select id="categorias">
                     <option value="" disabled selected>Seleccione</option>
@@ -103,7 +104,7 @@
                     <option value="Canton">Educacion Superior Avanzada</option>
                 </select>
                 <br>
-            </div>
+            </aside>
 
             
 
@@ -111,12 +112,12 @@
 
         <div class="form-section">
             <h3>Experiencia Laboral</h3>
-            <div class="form-group">
+            <aside class="form-group">
                 <label>Detalla tu experiencia laboral: </label>
                 <textarea style="width: 400px; height: 100px;"></textarea>
                 <br>
-            </div>
-            <div class="form-group">
+            </aside>
+            <aside class="form-group">
                 <label>Que idiomas dominas?</label>
                     <label>
                         <input type="checkbox" value="Ingles" id="ingles"> Ingles 
@@ -127,36 +128,39 @@
                     <label>
                         <input type="checkbox" value="Portugues" id="portugues">Portugues
                     </label>
-            </div>
+            </aside>
             <br>
             <label class="form-container">Adjuntar Certificados de Idiomas:
                 <input type="file"></label>
                 <br>
 
-                <div class="form-group">
+                <aside class="form-group">
                     <label>Detalle sus aspiraciones laborales: </label>
                     <textarea style="width: 400px; height: 50px;"></textarea>
 
                     <br>
-                    </div>
+                </aside>
 
-                <div class="form-group">
+                <aside class="form-group">
                     <label>Detalle Capacitaciones Previas: </label>
                     <textarea style="width: 400px; height: 50px;"></textarea>
                     <br>
-                    </div>
+                </aside>
 
 
-                    <div class="form-group">
+                    <aside class="form-group">
                         <label>Agregue Referencias Personales: </label>
                         <textarea style="width: 400px; height: 50px;"></textarea>
                         <br>
-                    </div>
+                    </aside>
         </div>
 
-        <aside>
-            <a href=""></a>
-        </aside>
+        <div>
+            <br>
+            <input class="iniciar" type="submit" value="Enviar formulario">
+            <br>
+            <a href="index.html">Volver</a>
+        </div>
     </form>
     
 
