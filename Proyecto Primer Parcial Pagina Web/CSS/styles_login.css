@@ -60,8 +60,8 @@ body {
 }
 
 .input-group input:focus {
-    border: 1px solid #007BFF;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    border: 1px solid #079207;
+    box-shadow: 0 0 5px rgba(3, 237, 97, 0.588);
 }
 
 input[type="submit"] {
@@ -69,7 +69,7 @@ input[type="submit"] {
     width: 100%;
     padding: 10px;
     font-size: 1rem;
-    background-color: #007BFF;
+    background-color: #0cd60c;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -78,7 +78,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #246821;
 }
 
 .pie-form {
@@ -109,6 +109,19 @@ input[type="submit"]:hover {
 
 .inferior a:hover {
     text-decoration: underline;
+}
+
+footer {
+    background: #1c3b4d;
+    color: #a8ff60;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    border-top: 2px solid #00ff00;
+}
+
+footer p {
+    margin: 0;
 }
 
 /*Boton Dark-Mode*/

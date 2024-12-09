@@ -40,7 +40,7 @@ body {
 }
 
 .input-group i {
-    color: #007BFF;
+    color: #10930e;
     margin-right: 10px;
 }
 
@@ -57,7 +57,7 @@ input[type="submit"] {
     width: 100%;
     padding: 10px;
     font-size: 1rem;
-    background-color: #007BFF;
+    background-color: #06af41;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -65,13 +65,13 @@ input[type="submit"] {
     margin-top: 10px;
 }
 
-.btn-recuperar:hover {
-    background-color: #0056b3;
+input[type="submit"]:hover {
+    background-color: #0c8a38;
     transform: scale(1.05);
 }
 
-.btn-recuperar:active {
-    background-color: #004085;
+input[type="submit"]:active {
+    background-color: #0edb56;
     transform: scale(0.98);
 }
 
@@ -91,6 +91,18 @@ input[type="submit"] {
     text-decoration: underline;
 }
 
+footer {
+    background: #1c3b4d;
+    color: #a8ff60;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    border-top: 2px solid #00ff00;
+}
+
+footer p {
+    margin: 0;
+}
 
 /*Boton Dark-Mode*/
 label {
