@@ -25,7 +25,7 @@ body {
     color: #333;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 2px solid #6dcc1f;
+    border-bottom: 2px solid #0ed743;
     display: inline-block;
     padding-bottom: 5px;
 }
@@ -89,7 +89,7 @@ body {
 
 .card a {
     text-decoration: none;
-    color: #a8ff60;
+    color: #12cc24;
     font-weight: bold;
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 button {
-    background-color: #a8ff60;
+    background-color: #6ed21c;
     color: white;
     border: none;
     border-radius: 5px;
@@ -109,7 +109,20 @@ button {
 }
 
 button:hover {
-    background-color: #6aa03d;
+    background-color: #458511;
+}
+
+footer {
+    background: #1c3b4d;
+    color: #a8ff60;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    border-top: 2px solid #00ff00;
+}
+
+footer p {
+    margin: 0;
 }
 
 /*Boton Dark-Mode*/
@@ -194,23 +207,6 @@ input:checked + label svg.moon {
     z-index: -1;
     position: grid;
     transition: 0.3s;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0d0d0d;
-    color: #a8dba8;
-    border-top: 2px solid #444;
-}
-
-footer a {
-    color: #32cd32;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
 
 input:checked ~ label ~ .background {
