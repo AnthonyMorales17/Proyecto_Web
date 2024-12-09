@@ -172,6 +172,37 @@ nav ul a {
     background-color: #32cd32;
 }
 
+.footer {
+    padding: 50px;
+    background-color: #15803d;
+    color: var(--primary-color);
+    border-top: 2px solid #444;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-rows: repeat(1, 100px);
+    grid-template-columns: repeat(2, 500px);
+    gap: 40px;
+}
+
+.footer-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.footer-content img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    top: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 /*Boton Dark-Mode*/
 label {
     width: 110px;
@@ -293,5 +324,18 @@ input:checked ~ .background .product h3{
 
 input:checked ~ .background .product p,
 input:checked ~ .background .precio{
+    color: var(--primary-color);
+}
+
+
+input:checked ~.background footer {
+    background-color: var(--secondary-color);
+}
+
+input:checked ~.background .footer-content h3{
+    color: #32cd32;
+}
+
+input:checked ~.background .footer-content ul li{
     color: var(--primary-color);
 }

@@ -181,6 +181,40 @@ table td {
     transition-delay: 0.75s;
 }
 
+.footer {
+    padding: 20px 25px 35px 25px;
+    background-color: #2c3e50;
+    color: var(--primary-color);
+    height: 100%;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-rows: repeat(1, 100px);
+    grid-template-columns: repeat(2, 500px);
+}
+
+.footer-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.footer-content ul li {
+    list-style-type: none;
+}
+
+.footer-content img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    top: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 
 /*Boton Dark-Mode*/
 label {
@@ -372,3 +406,14 @@ input:checked ~ .background .btn-primary:hover #span4 {
     transition-delay: 0.75s;
 }
 
+input:checked ~.background footer {
+    background-color: var(--secondary-color);
+}
+
+input:checked ~.background .footer-content h3{
+    color: #32cd32;
+}
+
+input:checked ~.background .footer-content ul li{
+    color: var(--primary-color);
+}

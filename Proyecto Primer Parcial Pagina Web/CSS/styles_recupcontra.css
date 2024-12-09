@@ -16,7 +16,7 @@ body {
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    background: #fff;
+    background: var(--primary-color);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     box-sizing: border-box;
@@ -170,7 +170,9 @@ input:checked + label svg.moon {
 }
 
 .background {
-    background: #fff;
+    background-image: url(/Imagenes/Fondo_RC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: -1;
     width: 100vw;
     height: 100vh;
@@ -181,7 +183,9 @@ input:checked + label svg.moon {
 }
 
 input:checked ~ label ~ .background {
-    background: var(--secondary-color);
+    background-image: url(/Imagenes/Fondo_RC1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 input:checked ~.background .titulo{
